@@ -65,7 +65,7 @@ TEST_DOCTOR_ID=4
 
 # API Configuration
 HEALTH_API_KEY=w2V34VNVAGUV23xzuzkGds4dHaw2z6CJ1AhtX955QUo
-HEALTH_API_URL=http://10.11.27.76:5000/api
+HEALTH_API_URL=http://10.11.28.161:5000/api
 ```
 
 ## Test Execution

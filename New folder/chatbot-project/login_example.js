@@ -182,7 +182,7 @@ if (loginResult.success) {
         console.log('\n⚠️  Important Notes:');
         console.log('====================');
         console.log('1. Replace example credentials with actual test accounts');
-        console.log('2. Ensure API server is running on http://10.11.27.76:5000');
+        console.log('2. Ensure API server is running on http://10.11.28.161:5000');
         console.log('3. Check .env file for proper API_KEY and API_TOKEN');
         console.log('4. Test network connectivity to the API server');
         console.log('5. Run "node login_test.js" to test actual authentication');

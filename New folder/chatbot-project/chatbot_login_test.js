@@ -594,7 +594,7 @@ async function testChatbotWithPatientLogin() {
         if (error.code === 'ECONNREFUSED') {
             console.log('\n💡 Troubleshooting:');
             console.log('   • Ensure chatbot server is running: node src/bot.js');
-            console.log('   • Ensure API server is running on http://10.11.27.76:5000');
+            console.log('   • Ensure API server is running on http://10.11.28.161:5000');
         }
     }
 }

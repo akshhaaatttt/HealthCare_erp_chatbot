@@ -3,7 +3,7 @@ const config = require('../config/config');
 
 class HealthcareAPIService {
     constructor() {
-        this.baseURL = 'http://10.11.27.76:5000/api';
+        this.baseURL = 'http://10.11.28.161:5000/api';
         this.apiKey = config.HEALTH_API_KEY;
         this.token = config.HEALTH_API_TOKEN;
         this.timeout = 10000;
@@ -497,6 +497,11 @@ class HealthcareAPIService {
         } catch (error) {
             throw error;
         }
+    }
+
+    // Alias for getDoctors to match test expectations
+    async getDoctorsList(hospitalId = null) {
+        return this.getDoctors(hospitalId);
     }
 
     // Doctor Dashboard
