@@ -3,7 +3,7 @@ const config = require('../config/config');
 
 class HealthcareAPIService {
     constructor() {
-        this.baseURL = 'http://10.11.28.161:5000/api';
+        this.baseURL = 'http://10.11.26.227:5000/api';
         this.apiKey = config.HEALTH_API_KEY;
         this.token = config.HEALTH_API_TOKEN;
         this.timeout = 10000;

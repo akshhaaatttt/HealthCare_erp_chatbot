@@ -325,7 +325,7 @@ class HealthcareAPITester {
 
         if (score < 100) {
             this.log('\n💡 Troubleshooting Tips:', 'info');
-            console.log('1. Ensure API server is running on http://10.11.28.161:5000');
+            console.log('1. Ensure API server is running on http://10.11.26.227:5000');
             console.log('2. Check .env file for correct credentials');
             console.log('3. Verify network connectivity');
             console.log('4. Check API server logs for errors');
